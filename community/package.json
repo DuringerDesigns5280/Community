@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "ajv": "^6.5.2",
+    "express": "^4.16.3",
     "icons": "^1.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -18,7 +19,8 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "start": "concurrently 'npm run react' 'npm run server'",
+    "start": "node src/server/index.js",
+    "dev": "concurrently 'npm run react' 'npm run server'",
     "react": "react-scripts start",
     "server": "node src/server/index.js",
     "build": "react-scripts build",

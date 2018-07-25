@@ -68,6 +68,45 @@ class Login extends Component {
             onChange={this.handleChange}
           />
         </Form.Group>
+        <Form.Group in >
+          <label>I identify as</label>
+          <Form.Radio
+            label='Gay'
+            value='gay'
+            checked={value === 'gay'}
+            onChange={this.handleChange}
+          />
+          <Form.Radio
+            label='Lesbian'
+            value='cou'
+            checked={value === 'cou'}
+            onChange={this.handleChange}
+          />
+          <Form.Radio
+            label='Transgender'
+            value='hi'
+            checked={value === 'hi'}
+            onChange={this.handleChange}
+          />
+          <Form.Radio
+            label='Bi-Suxual'
+            value='BID'
+            checked={value === 'BID'}
+            onChange={this.handleChange}
+          />
+          <Form.Radio
+            label='Questioning'
+            value='Trans'
+            checked={value === 'Trans'}
+            onChange={this.handleChange}
+          />
+          <Form.Radio
+            label='Other'
+            value='other'
+            checked={value === 'OTHER'}
+            onChange={this.handleChange}
+          />
+        </Form.Group>
         <Form.TextArea label='About' placeholder='Tell us more about you...' />
         <Form.Checkbox label='I agree to the Terms and Conditions' />
         <Modal trigger={<Button>Terms & Conditions</Button>}>
@@ -140,11 +179,11 @@ B. No Joint Venture, No Derogation of Rights. You agree that no joint venture, p
      
     </Modal.Actions>
   </Modal>
-  <Form.Button className='submit'>Submit</Form.Button>
+  <Button className='logA'  ><a href='/Profiles'>Submit</a> </Button>
         <h2>Already part of our community? Login here</h2>
         <Form.Input fluid label='User Name' placeholder='User Name' />
         <Form.Input fluid label='Email' placeholder='Email' />
-        <Form.Button>Login</Form.Button>
+        <Button className='logA'><a href='/Profile'>Login</a> </Button>
       </Form>
       </div>
     )

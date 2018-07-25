@@ -19,9 +19,9 @@ const Cards = (props) => (
       </Card.Meta>
       <Card.Description className='desc'>{props.Description}</Card.Description>
     </Card.Content>
-      <Button  inverted color='blue'>
+      <Button   color='blue'><a href='/Profile'>
         Let's Connect!
-      </Button>
+      </a></Button>
   </Card>
 )
 

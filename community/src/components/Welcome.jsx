@@ -19,10 +19,11 @@ Connecting people at the start of their journey of self love with a mentor who h
          <div className='welcome'>
          <div className='howWeWork'>
          <h1 className='workLogo'>How Community Works</h1>
-         <h3>Here at Community we strive to provide a safe and therapeutic space for our members as well as our mentors we do this by: </h3>
+         <h3>Here at Community we strive to provide a safe and therapeutic space for our members as well as for out mentors we do this by: </h3>
          <ul>
-           <li>Ensuring each one of our mentors pass a vigorous background and mental check.</li>
+           <li>Ensuring each one of our mentors pass a vigorous criminal background and mental check.</li>
            <li>Providing a secure and safe space to chat one-on-one with your mentor.</li>
+           <li>We keep all of your very sensitive information secure.</li>
            <li>Community also provides a resources page filled with other free resources. </li>
          </ul>
          </div>

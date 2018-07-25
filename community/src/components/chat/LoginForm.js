@@ -43,7 +43,9 @@ export default class LoginForm extends Component {
 				<form onSubmit={this.handleSubmit} className="login-form" >
 
 					<label htmlFor="Userna">
-						<h2>User Name</h2>
+					
+						<h2>Enter User Name</h2>
+						
 					</label>
 					<input
 						ref={(input)=>{ this.textInput = input }} 
@@ -51,7 +53,7 @@ export default class LoginForm extends Component {
 						id="nickname"
 						value={nickname}
 						onChange={this.handleChange}
-						placeholder={'User Name'}
+						placeholder={''}
 						/>
 						<div className="error">{error ? error:null}</div>
 

@@ -100,10 +100,21 @@ a:link{
   color: gray;
 }
 
+ 
+ .logA a:visited{
+   text-decoration: none;
+   color:black;
+ }
+ 
+ .logA a:link{
+   color: black;
+   font-size: 14px;
+ }
+
 
 .ui.button{
   margin-top: 3px;
-  color:gray;
+  color: black;
 }
 /* welcome page */
 
@@ -272,15 +283,15 @@ input, textarea {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  
 }
 
 .login-form {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #fff;
-
+  color: black;
 }
 
 .login-form input {
@@ -749,6 +760,15 @@ input, textarea {
   justify-content: center;
   font-size: 30px;
   padding: 5vw;
+}
+
+h3{
+  font-size: 24px;
+}
+
+li{
+  display: flex;
+  justify-content: flex-start;
 }
 
 .topRes{

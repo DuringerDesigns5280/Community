@@ -10,7 +10,8 @@ Community is your one-stop virtual space to find essential LGBTQ resources. A on
 
 
 # Technolgy Used
-Front-end:
+
+# Front-end:
 
 [React](https://reactjs.org/docs/getting-started.html)
 
@@ -18,7 +19,7 @@ Front-end:
 
 [Semanitic-UI](https://react.semantic-ui.com/)
 
-[Back-end](https://github.com/Taylor4980/community-back-end)
+# [Back-end](https://github.com/Taylor4980/community-back-end)
 
 [Express](http://expressjs.com/en/starter/hello-world.html)
 

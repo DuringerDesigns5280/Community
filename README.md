@@ -26,8 +26,9 @@ Front-end:
 
 [Heroku](https://signup.heroku.com/?c=70130000001xDpdAAE&gclid=CjwKCAjwtIXbBRBhEiwAWV-5nn5W5bscq0tG8A58Z3YROJgx5UnXvi5gr2d4lzioxUsLLKR40U4HLRoC5n8QAvD_BwE)
 
-![screenshot](screenshot2.png)
+
 # Challenges
+![screenshot](screenshot2.png)
 
 Socket.io was the biggest challange with this project. The screen shot above shows the chat feature for community. I still would like to add some more style elements to the chat feature. 
 

@@ -11,13 +11,19 @@ Community is your one-stop virtual space to find essential LGBTQ resources. A on
 
 # Technolgy Used
 Front-end:
+
 [React](https://reactjs.org/docs/getting-started.html)
+
 [Socket.io](https://socket.io/)
+
 [Semanitic-UI](https://react.semantic-ui.com/)
 
-[Back-end/Link to repo](https://github.com/Taylor4980/community-back-end)
+[Back-end](https://github.com/Taylor4980/community-back-end)
+
 [Express](http://expressjs.com/en/starter/hello-world.html)
+
 [PostgreSQL](https://www.postgresql.org/)
+
 [Heroku](https://signup.heroku.com/?c=70130000001xDpdAAE&gclid=CjwKCAjwtIXbBRBhEiwAWV-5nn5W5bscq0tG8A58Z3YROJgx5UnXvi5gr2d4lzioxUsLLKR40U4HLRoC5n8QAvD_BwE)
 
 
